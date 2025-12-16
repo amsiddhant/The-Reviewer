@@ -8,8 +8,8 @@
         body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; max-width: 900px; padding: 0 15px; }
         h1, h2 { color: #2C3E50; margin-top: 1.5em; }
         h1 { border-bottom: 2px solid #E74C3C; padding-bottom: 5px; }
-        .email-link { font-weight: bold; color: #E74C3C; }
-        .retention-box { margin-top: 20px; padding: 15px; border: 1px solid #D6EAF8; background-color: #EBF5FB; }
+        .in-app-steps { margin: 20px 0; padding: 15px; border: 1px solid #3498DB; background-color: #EBF5FB; }
+        .retention-box { margin-top: 20px; padding: 15px; border: 1px solid #D6EAF8; background-color: #F8F9F9; }
     </style>
 </head>
 <body>
@@ -18,22 +18,22 @@
     <p>This page provides the mandatory steps and details required to request the deletion of your user account and associated personal data from <strong>The Reviewer</strong> app, operated by Siddhant Senapati.</p>
 
     <h2>1. How to Request Account Deletion (Mandatory Steps)</h2>
-    <p>To request the permanent deletion of your account and data, you must send an email with the following details:</p>
-    <ul>
-        <li><strong>Recipient:</strong> <a class="email-link" href="mailto:siddhant.awaits@gmail.com">siddhant.awaits@gmail.com</a></li>
-        <li><strong>Subject Line:</strong> ACCOUNT DELETION REQUEST - THE REVIEWER</li>
-        <li><strong>Email Body Must Contain:</strong>
-            <ul>
-                <li>Your full registered **Email Address** (used to sign in with Google).</li>
-                <li>Your **User ID** (if known, otherwise your display name).</li>
-                <li>A clear statement confirming your request for **permanent deletion**.</li>
-            </ul>
-        </li>
-    </ul>
-    <p>We will confirm your request within 48 hours and process the deletion within 30 days.</p>
+    <p>You can request account deletion directly through the application's support feature:</p>
+    
+    <div class="in-app-steps">
+        <ol>
+            <li>Navigate to the **Profile** screen in The Reviewer app.</li>
+            <li>Tap on the **Contact Support** or **Help/Feedback** option.</li>
+            <li>In the message body, write a clear request stating: **"I request the permanent deletion of my account and all associated data."**</li>
+            <li>Ensure the email is sent from the address associated with your Google Sign-In account.</li>
+        </ol>
+        <p>Alternatively, you may send the request directly to our support email: <strong>siddhant.awaits@gmail.com</strong>.</p>
+    </div>
+
+    <p>We will confirm your request within 48 hours and process the permanent deletion of your data within 30 days of verification.</p>
 
     <h2>2. Data Types Deleted Upon Request</h2>
-    <p>Upon successful verification of your request, the following personal and associated data will be permanently deleted from our live systems (Firebase Authentication and Cloud Firestore):</p>
+    <p>Upon successful verification, the following personal and associated data will be permanently deleted from our live systems (Firebase Authentication and Cloud Firestore):</p>
     <ul>
         <li>User Account and **Email Address** (from Firebase Authentication).</li>
         <li>Your **Display Name** and Profile Photo URL.</li>
@@ -44,12 +44,12 @@
 
     <h2>3. Data Retained and Retention Period</h2>
     <div class="retention-box">
-        <p>In accordance with our data retention policy, the following non-personal or anonymized data may be retained:</p>
+        <p>The following non-personal data may be retained for security and analytics purposes:</p>
         <ul>
             <li><strong>Anonymized Analytics:</strong> Aggregated usage data collected by Firebase Analytics (which cannot be linked back to you).</li>
-            <li><strong>Legal/Financial Records:</strong> Data required to be retained by law (if applicable, e.g., payment records, though this app is free).</li>
+            <li><strong>Legal/Safety Records:</strong> Limited data may be retained if required to comply with legal obligations or to prevent abuse/fraud.</li>
         </ul>
-        <p>No personally identifiable information (PII) will be retained beyond a 30-day processing period once the account deletion request is verified.</p>
+        <p>No personally identifiable information (PII) will be retained beyond the 30-day processing period once the account deletion request is verified.</p>
     </div>
 
 </body>
